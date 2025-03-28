@@ -1,6 +1,7 @@
 import reflex as rx
 from frontend_python.components.navbar import navbar
 from frontend_python.views.header.header import header
+from frontend_python.views.links.links import links
 
 # Class that manages the states of the website
 class State(rx.State):
@@ -10,7 +11,8 @@ class State(rx.State):
 def index() -> rx.Component:
     return rx.vstack(
         navbar(),
-        header()
+        header(),
+        links()
     )
 
 app = rx.App()
