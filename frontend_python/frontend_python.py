@@ -7,7 +7,9 @@ class State(rx.State):
 
 # Function that renders the components of the page
 def index() -> rx.Component:
-    return navbar()
+    return rx.vstack(
+        navbar()
+    )
 
 app = rx.App()
 app.add_page(index) # Add the page created above
