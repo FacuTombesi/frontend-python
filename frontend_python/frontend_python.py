@@ -10,10 +10,12 @@ class State(rx.State):
 
 # Function that renders the components of the page
 def index() -> rx.Component:
-    return rx.vstack(
+    return rx.box(
         navbar(),
-        header(),
-        links(),
+        rx.vstack(
+            header(),
+            links()
+        ),
         footer()
     )
 
