@@ -1,7 +1,9 @@
 import reflex as rx
+from frontend_python.components.link_button import link_button
 
 def links() -> rx.Component:
   return rx.vstack(
+    link_button(),
     rx.button(
       "Calculator",
       size="3",
