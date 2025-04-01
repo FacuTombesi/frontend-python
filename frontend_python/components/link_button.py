@@ -1,10 +1,10 @@
 import reflex as rx
 
-def link_button() -> rx.Component:
+def link_button(text: str, color: str) -> rx.Component:
   return rx.button(
-    "Calculator",
+    text,
     size="3",
     variant="solid",
-    color_scheme="gray",
+    color_scheme=color,
     radius="small"
   )
