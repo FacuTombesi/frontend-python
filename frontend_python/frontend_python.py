@@ -1,5 +1,6 @@
 import reflex as rx
 from frontend_python.components.navbar import navbar
+from frontend_python.components.footer import footer
 from frontend_python.views.header.header import header
 from frontend_python.views.links.links import links
 
@@ -12,7 +13,8 @@ def index() -> rx.Component:
     return rx.vstack(
         navbar(),
         header(),
-        links()
+        links(),
+        footer()
     )
 
 app = rx.App()
