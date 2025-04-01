@@ -1,9 +1,15 @@
 import reflex as rx
+import datetime
 
 def footer() -> rx.Component:
   return rx.vstack(
     rx.image(
       src="favicon.ico"
     ),
-    rx.text("Footer text")
+    rx.link(
+      f"© 2023-{datetime.date.today().year} FTombesi by Facundo Tombesi",
+      href="https://ftportfolio.vercel.app/",
+      is_external=True
+    ),
+    rx.text("Footer link text")
   )
