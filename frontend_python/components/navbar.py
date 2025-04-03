@@ -3,13 +3,12 @@ import reflex as rx
 def navbar() -> rx.Component:
   return rx.stack(
     rx.text(
-      "<ftombesi/>",
-      height="40px"
+      "<ftombesi/>"
     ),
     position="sticky",
     bg="purple",
     padding_x="16px",
-    padding_y="4px",
+    padding_y="16px",
     z_index="999",
     align="center"
   )
