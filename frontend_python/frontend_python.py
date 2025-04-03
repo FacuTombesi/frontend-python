@@ -19,7 +19,8 @@ def index() -> rx.Component:
                 max_width="600px",
                 width="100%",
                 direction="column",
-                align="center"
+                align="center",
+                margin_y="32px"
             ),
         ),
         footer()
