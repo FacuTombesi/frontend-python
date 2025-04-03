@@ -1,7 +1,7 @@
 import reflex as rx
 
 def navbar() -> rx.Component:
-  return rx.hstack(
+  return rx.stack(
     rx.text(
       "<ftombesi/>",
       height="40px"
@@ -10,5 +10,6 @@ def navbar() -> rx.Component:
     bg="purple",
     padding_x="16px",
     padding_y="4px",
-    z_index="999"
+    z_index="999",
+    align="center"
   )

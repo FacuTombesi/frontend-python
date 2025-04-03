@@ -13,5 +13,6 @@ def footer() -> rx.Component:
     ),
     direction="row",
     justify="between",
-    align="center"
+    align="center",
+    padding_x="16px"
   )
