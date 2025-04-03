@@ -2,7 +2,7 @@ import reflex as rx
 import datetime
 
 def footer() -> rx.Component:
-  return rx.vstack(
+  return rx.stack(
     rx.image(
       src="favicon.ico"
     ),
@@ -11,5 +11,7 @@ def footer() -> rx.Component:
       href="https://ftportfolio.vercel.app/",
       is_external=True
     ),
-    rx.text("Footer link text")
+    rx.text("Footer link text"),
+    direction="column",
+    align="center"
   )
