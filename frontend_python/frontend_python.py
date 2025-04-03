@@ -13,12 +13,14 @@ def index() -> rx.Component:
     return rx.box(
         navbar(),
         rx.center(
-            rx.vstack(
+            rx.stack(
                 header(),
                 links(),
                 max_width="600px",
-                width="100%"
-            )
+                width="100%",
+                direction="column",
+                align="center"
+            ),
         ),
         footer()
     )
