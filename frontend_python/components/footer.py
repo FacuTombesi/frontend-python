@@ -11,7 +11,7 @@ def footer() -> rx.Component:
       href="https://ftportfolio.vercel.app/",
       is_external=True
     ),
-    rx.text("Footer link text"),
-    direction="column",
+    direction="row",
+    justify="between",
     align="center"
   )
