@@ -16,7 +16,7 @@ def index() -> rx.Component:
             rx.stack(
                 header(),
                 links(),
-                max_width="600px",
+                max_width="600px", # CSS styles are applied like this and are written with _ instead of - as in traditional CSS
                 width="100%",
                 direction="column",
                 align="center",
