@@ -22,7 +22,7 @@ def index() -> rx.Component:
                 width="100%",
                 direction="column",
                 align="center",
-                margin_y="32px"
+                margin_y=styles.Spacer.BIG.value
             ),
         ),
         footer()
