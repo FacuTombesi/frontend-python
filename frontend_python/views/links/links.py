@@ -8,5 +8,6 @@ def links() -> rx.Component:
     link_button("Weather App", "crimson", "https://ftweatherapp.vercel.app/"),
     link_button("Budget Tracker", "purple", "https://ftbudgettracker.vercel.app/"),
     direction="column",
-    align="center"
+    align="center",
+    width="100%"
   )

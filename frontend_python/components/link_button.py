@@ -5,9 +5,9 @@ def link_button(text: str, color: str, url: str) -> rx.Component:
     rx.button(
       text,
       color_scheme=color,
-      radius= "small",
-      size= "3",
-      variant= "solid"
+      radius="small",
+      size="3",
+      variant="solid"
     ),
     href=url,
     is_external=True,
