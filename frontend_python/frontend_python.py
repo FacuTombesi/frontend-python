@@ -28,5 +28,7 @@ def index() -> rx.Component:
         footer()
     )
 
-app = rx.App()
+app = rx.App(
+    style=styles.GLOBAL_STYLE
+)
 app.add_page(index) # Add the page created above

@@ -7,8 +7,7 @@ def link_button(text: str, color: str, url: str) -> rx.Component:
       size="3",
       variant="solid",
       color_scheme=color,
-      radius="small",
-      width="100%"
+      radius="small"
     ),
     href=url,
     is_external=True,
