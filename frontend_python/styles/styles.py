@@ -16,5 +16,8 @@ GLOBAL_STYLE = {
     "width": "100%",
     "height": "100%",
     "padding": Size.SMALL.value
+  },
+  rx.link: {
+    "text_decoration": "none"
   }
 }
