@@ -26,10 +26,3 @@ GLOBAL_STYLE = {
     "text_decoration": "none"
   }
 }
-
-# Components styles
-title_style = dict(
-  size="lg",
-  width="100%",
-  padding_top=Size.DEFAULT.value
-)
