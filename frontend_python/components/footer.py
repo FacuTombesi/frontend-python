@@ -9,7 +9,8 @@ def footer() -> rx.Component:
     rx.link(
       f"© 2023-{datetime.date.today().year} FTombesi by Facundo Tombesi",
       href="https://ftportfolio.vercel.app/",
-      is_external=True
+      is_external=True,
+      color="white"
     ),
     direction="row",
     justify="between",
