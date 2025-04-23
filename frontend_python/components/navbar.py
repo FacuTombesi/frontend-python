@@ -6,7 +6,7 @@ def navbar() -> rx.Component:
       "<ftombesi/>"
     ),
     position="sticky",
-    bg="purple",
+    bg="gray",
     padding_x="16px",
     padding_y="16px",
     z_index="999",
