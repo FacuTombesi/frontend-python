@@ -6,7 +6,7 @@ def footer() -> rx.Component:
       src="favicon.ico"
     ),
     rx.link(
-      "Mini-Projects by FTombesi .",
+      "Mini-Projects by FTombesi",
       href="https://ftportfolio.vercel.app/",
       is_external=True,
       color="white"
